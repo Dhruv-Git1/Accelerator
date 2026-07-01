@@ -1,0 +1,76 @@
+# ============================================================================
+# Vivado Generated Files
+# ============================================================================
+
+# Project caches
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+
+# Log and journal files
+*.jou
+*.log
+*.str
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*.bak
+
+# Checkpoints
+*.dcp
+
+# Reports
+*.rpt
+*.pb
+*.xml
+
+# Hardware manager
+*.ltx
+
+# Bitstreams (uncomment if you DON'T want to store generated bitstreams)
+*.bit
+*.bin
+*.mcs
+
+# Simulation outputs
+*.wdb
+*.vcd
+*.vvp
+*.wcfg
+*.xsim/
+xsim.dir/
+
+# WebTalk / usage statistics
+webtalk*
+usage_statistics_webtalk.*
+
+# SDK / Vitis (if used)
+.sdk/
+.vitis/
+workspace/
+
+# HLS (if used)
+solution/
+impl/
+syn/
+
+# IP cache
+ip_cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (if using automation scripts)
+__pycache__/
+*.pyc
