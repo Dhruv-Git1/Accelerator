@@ -47,13 +47,13 @@ output reg [7:0] cand4_vote_recvd
         else
         begin
                 if(cand1_vote_valid)
-                     cand1_vote_recvd <= cand_vote_recvd +1;
+                     cand1_vote_recvd <= cand1_vote_recvd +1;
                 else if(cand2_vote_valid)
-                     cand2_vote_recvd <= cand_vote_recvd +1;
+                     cand2_vote_recvd <= cand2_vote_recvd +1;
                else if(cand3_vote_valid)
-                     cand3_vote_recvd <= cand_vote_recvd +1;
+                     cand3_vote_recvd <= cand3_vote_recvd +1;
                 else if(cand4_vote_valid)
-                     cand4_vote_recvd <= cand_vote_recvd +1;
+                     cand4_vote_recvd <= cand4_vote_recvd +1;
         
         end
     end

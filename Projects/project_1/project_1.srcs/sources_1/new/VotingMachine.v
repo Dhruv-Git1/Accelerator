@@ -28,13 +28,21 @@ input button1,
 input button2,
 input button3,
 input button4,
-output[7:0] led
+output wire [7:0] led
     );
     
     wire valid_vote_1;
     wire valid_vote_2;
     wire valid_vote_3;
     wire valid_vote_4;
+    wire [7:0] cand1_vote_recvd;
+    wire [7:0] cand2_vote_recvd;
+    wire [7:0] cand3_vote_recvd;
+    wire [7:0] cand4_vote_recvd;
+    
+    wire anyValidVote;
+    
+    assign anyValidVote= valid_vote_1 || valid_vote_2 || valid_vote_3 || valid_vote_4;
     
 buttoncontrol bc1(
 .clock(clock),
@@ -81,6 +89,23 @@ voteLogger VL(
 .cand2_vote_recvd(),
 .cand3_vote_recvd(),
 .cand4_vote_recvd()
+
+    );
+
+modecontrol MC(
+.clock(clock),
+.reset(reset),
+.mode(mode),
+.valid_vote_casted(anyValidVote), //if one of them gots valid vote, it gets high candivate1_vote,
+.candidate1_vote(cand1_vote_recvd),
+.candivate2_vote(cand2_vote_recvd),
+.candivate3_vote(cand3_vote_recvd),
+.candivate4_vote(cand4_vote_recvd),
+.candidate1_butto_press(valid_vote_1),
+.candidate2_butto_press(valid_vote_2),
+.candidate3_butto_press(valid_vote_3),
+.candidate4_butto_press(valid_vote_4),
+.leds(led)
 
     );
 endmodule
