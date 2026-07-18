@@ -1,0 +1,24 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.11129",
+   "Default View_TopLeft":"651,-3",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port gpio_rtl -pg 1 -lvl 5 -x 1520 -y 190 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 550 -y -10 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 150 -y 190 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1370 -y 100 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 3 -x 1040 -y -10 -defaultsOSRD
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 4 30 110 NJ 110 NJ 110 1210
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 20 0 260 -110 850 100 1240J
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 2 1 870 -30n
+preplace netloc axi_gpio_0_GPIO 1 1 4 NJ 190 NJ 190 NJ 190 NJ
+preplace netloc axi_smc_M00_AXI 1 0 5 40 90 NJ 90 NJ 90 1220J 10 1500
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 2 2 840J -120 1240
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 2 2 860 -110 1230J
+levelinfo -pg 1 0 150 550 1040 1370 1520
+pagesize -pg 1 -db -bbox -sgen -160 -270 1630 270
+"
+}
+0
