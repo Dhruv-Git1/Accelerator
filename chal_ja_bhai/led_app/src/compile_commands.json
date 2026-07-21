@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Desktop/Accelerator/chal_ja_bhai/led_app/build",
+  "command": "C:\\vivado_2024\\Vitis\\2024.2\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -isystem D:/Desktop/Accelerator/chal_ja_bhai/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem C:/vivado_2024/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include -isystem C:/vivado_2024/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include-fixed -isystem C:/vivado_2024/Vitis/2024.2/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -O2 -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=d:/Desktop/Accelerator/chal_ja_bhai/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -Id:/Desktop/Accelerator/chal_ja_bhai/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ \"-D__FILENAME__='__FILE__'\" -o CMakeFiles\\led_app.elf.dir\\ledcontrol.c.obj -c D:\\Desktop\\Accelerator\\chal_ja_bhai\\led_app\\src\\ledcontrol.c",
+  "file": "D:\\Desktop\\Accelerator\\chal_ja_bhai\\led_app\\src\\ledcontrol.c"
+}
+]

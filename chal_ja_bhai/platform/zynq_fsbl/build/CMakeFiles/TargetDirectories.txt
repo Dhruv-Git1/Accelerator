@@ -1,0 +1,3 @@
+D:/Desktop/Accelerator/chal_ja_bhai/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+D:/Desktop/Accelerator/chal_ja_bhai/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+D:/Desktop/Accelerator/chal_ja_bhai/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

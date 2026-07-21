@@ -1,0 +1,4 @@
+domain_path: d:\Desktop\Accelerator\chal_ja_bhai\platform\export\platform\sw\standalone_ps7_cortexa9_0
+app_src_dir: C:\vivado_2024\Vitis\2024.2\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c
