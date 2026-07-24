@@ -1,0 +1,2 @@
+{"at": "2026-07-24T11:54:32+00:00", "event": "run_started", "pid": 19244, "start": 16, "end": 16, "threads": 8, "model": "small.en"}
+{"at": "2026-07-24T11:54:35+00:00", "event": "transcription_started", "position": 16, "video_id": "c0w33XQDC6M", "audio": "D:\\Desktop\\Accelerator\\Transcipt\\_work\\audio\\c0w33XQDC6M.m4a", "model": "small.en"}
