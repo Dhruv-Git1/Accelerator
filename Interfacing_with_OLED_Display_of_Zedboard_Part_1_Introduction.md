@@ -1,1 +1,0 @@
-No transcript available.
