@@ -37,6 +37,8 @@ module imageControl(
     reg [1:0] current_read_line_buffer;
     
     
+    reg  [11:0] total_pixel_counter;   //why 12 bit, is this for 512 pixels?
+    
     
     
     //FSM states
@@ -99,7 +101,15 @@ linebuffer lb3 (
     
     
     //pixel tracker
-    
+    always @(posedge i_clk)begin
+        if (i_rst) begin
+            total_pixel_counter <= 12'd0;
+        end
+        else begin
+            if(i_pixel_data_valid  && !rd_line_buffer)
+                total_pixel_counter <= total_pixel_counter +1;
+        end
+    end
     
     
     
